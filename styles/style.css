@@ -16,16 +16,37 @@
   /* выше установили ограничения для секции */
 }
 
+.logo {
+  text-align: center;
+  white-space: nowrap;
+  height: 32px;
+  width: 228px; 
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  left: 64px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+ .header__title {
+  font-weight: 600;
+  line-height: 96px;
+  font-size: 102px;
+  width: 730px; 
+  flex-direction: column;
+  display: flex;
+} 
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
+/*.header__square-pic {
   height: 568px;
   width: 568px;
-}
+} */
 
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
+/*.table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
-}
+} */
