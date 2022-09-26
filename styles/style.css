@@ -243,6 +243,7 @@
   background-color: #1f1f1f;
   color: white;
   overflow: hidden;
+  position: relative;
 }
 .kaufman__header1 {
   margin: 0;
@@ -260,11 +261,12 @@
   width: 60%;
 }
 .kaufman__triangle {
+  top: 0;
   width: 877px;
   height: 877px;
   position: absolute;
-  right: 0;
-  z-index: 1;
+  right: -210px;
+  z-index: 0;
 }
 .kaufman__header2 {
   font-size: 24px;
@@ -278,6 +280,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 2;
 }
 .kaufman__table-cell_theme_dark {
   display: flex;
