@@ -368,4 +368,9 @@ p {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+}
+.footer__social_icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
 }       
