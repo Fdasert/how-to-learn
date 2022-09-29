@@ -1,10 +1,14 @@
+p {
+  margin: 0;
+}
 .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   display: flex;
-  flex-direction: column;}
+  flex-direction: column;
+}
 
 .page__header {
   background-color: #f2f2f2;
@@ -36,7 +40,6 @@
   line-height: 96px;
   font-size: 102px;
   hyphens: auto;
-  border: 2px solid red;
   margin-top: 0px;
   width: 751px;
   margin-bottom: 0px;
@@ -93,17 +96,19 @@
   min-height: 400px;
   display: flex;
 }
-.descriotion__two-colums-brief {
+.description__two-colums-brief {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
-.description__h3 {
+.description__link {
+  text-decoration: none;
   margin: 0;
   color: #2f80ed;
   width: 175px;
 }
 .description__main-text {
+  width: 80%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -308,10 +313,59 @@
   font-weight: normal;
   padding-bottom: 20px;
 }
-/* и элемента с модификатором вида ключ-значение */
-/*.table__cell_theme_dark {
-  width: 200px;
+.footer {
+  display: flex;
+  background-color: #1f1f1f;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
-} */
+  justify-content: center;
+}
+.footer__columns-content-copyright {
+  display: flex;
+  flex-basis: 711px;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer__column-heading {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer__column_content-social {
+  display: flex;
+  flex-direction: column;
+}
+.footer__column_content-info {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.footer__columns {
+  margin-bottom: 40px;
+  width: 90%;
+  padding-top: 60px;
+  display: flex;  
+  min-height: 350px;
+  justify-content: space-between;
+}
+.footer__place_logo {
+  margin: 0;
+  height: 32px;
+  width: 228px;
+}
+.footer__column-links {
+  list-style-type: none;
+}
+.footer__author {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}       
