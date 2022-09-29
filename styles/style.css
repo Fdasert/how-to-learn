@@ -25,7 +25,7 @@ p {
   text-align: center;
   white-space: nowrap;
   height: 32px;
-  width: 228px; 
+  width: 228px;
   position: absolute;
   top: 30px;
   left: 64px;
@@ -200,7 +200,6 @@ p {
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
-  margin-top: 0px;
   margin-bottom: 70px;
   width: 648px;
   text-align: center;
@@ -350,7 +349,7 @@ p {
   margin-bottom: 40px;
   width: 90%;
   padding-top: 60px;
-  display: flex;  
+  display: flex;
   min-height: 350px;
   justify-content: space-between;
 }
