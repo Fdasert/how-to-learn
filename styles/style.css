@@ -175,9 +175,9 @@
 
 .table__text { 
   line-height: 1.2;
-  font-size: 18px; 
-  font-weight: normal; 
-  padding-bottom: 20px; 
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 20px;
 }
 
 .feynman {
@@ -284,7 +284,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  padding-bottom: 20px
+  padding-bottom: 20px;
 }
 
 .table-theme-dark__heading {
