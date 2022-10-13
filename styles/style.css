@@ -168,13 +168,13 @@
 }
 
 .table__text-margin {  
-  line-height: 1.2; 
-  font-size: 18px; 
+  line-height: 1.2;
+  font-size: 18px;
   font-weight: normal; 
 } 
 
 .table__text { 
-  line-height: 1.2; 
+  line-height: 1.2;
   font-size: 18px; 
   font-weight: normal; 
   padding-bottom: 20px; 
@@ -209,7 +209,6 @@
   font-size: 36px;
   font-weight: normal;
   text-align: center;
-  margin: 0;
 }
 
 .feynman__link {
