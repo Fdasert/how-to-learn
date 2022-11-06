@@ -52,6 +52,7 @@
 	bottom: 30px;
 	left: 64px;
 	width: 388px;
+	z-index: 2;
   }
   
   .header__link {
@@ -59,7 +60,7 @@
 	color: #2f80ed;
   }
   
-  .header__main-ilustration {
+  .header__main-illustration {
 	width: 765px;
 	height: 608px;
 	bottom: 0px;
@@ -162,7 +163,7 @@
   
   .table__cell {
 	width: 250px;
-	margin-bottom: 60px;
+	margin-bottom: 0px;
 	line-height: 1.2;
 	font-size: 18px;
 	font-weight: normal;
@@ -265,9 +266,9 @@
 	font-size: 24px;
 	line-height: 34px;
 	font-weight: normal;
-	margin-bottom: 60px;
 	margin-top: 20px;
 	z-index: 2;
+	margin-bottom: 0px;
   }
   
   .kaufman__triangle {
@@ -279,6 +280,7 @@
 	background-position: top;
 	background-size: 877px 877px;
 	z-index: 0;
+	left: auto;
   }
   
   .table_theme_dark {
@@ -295,6 +297,7 @@
 	font-size: 24px;
 	font-weight: 600;
 	margin: 0;
+	padding-top: 80px;
   }
   
   .table__heading_theme_dark {
@@ -309,7 +312,6 @@
 	line-height: 1.2;
 	font-size: 18px;
 	font-weight: normal;
-	margin-bottom: 80px;
   }
   
   .footer {
@@ -350,7 +352,8 @@
   
   .logo_place_footer {
 	width: 228px;
-	background-repeat: no-repeat;
+	height: 32px;
+	background-size: contain;
   }
   
   .footer__author {
@@ -360,6 +363,7 @@
 	font-size: 18px;
 	font-weight: normal;
 	margin-bottom: 18px;
+	margin-top: 18px;
   }
   
   .footer__column_content_info {
