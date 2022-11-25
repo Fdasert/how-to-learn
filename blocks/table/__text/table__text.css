@@ -1,4 +1,7 @@
 .table__text {
   margin: 0;
   padding-bottom: 20px;
+}
+.table__text:last-of-type {
+  padding-bottom: 0px;
   }

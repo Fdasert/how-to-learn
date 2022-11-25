@@ -1,3 +1,8 @@
+.video__iframe {
+  width: 515px;
+  height: 316px;
+
+}
 .video__iframe:nth-child(1) {
   padding-right: 20px;
 }
