@@ -1,0 +1,10 @@
+.logo_place_header {
+  margin-top: 0;
+  text-align: center;
+  white-space: nowrap;
+  height: 32px;
+  width: 228px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  }

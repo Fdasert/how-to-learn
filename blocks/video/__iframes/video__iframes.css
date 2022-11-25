@@ -1,0 +1,8 @@
+.video__iframes {
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.video__iframe:nth-child(1) {
+  padding-right: 20px;
+}
