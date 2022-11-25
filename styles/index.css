@@ -65,5 +65,6 @@
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/iframe.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/rotation/rotation.css);
